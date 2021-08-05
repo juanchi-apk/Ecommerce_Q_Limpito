@@ -1,0 +1,119 @@
+.prodform_maincontainer {
+  width: 100%;
+  min-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prodform_button {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.prodform_flexContainer {
+  width: 500px;
+  min-width: 360px;
+  padding-top: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.form_Image_Thumbnail {
+  max-width: 300px;
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.prodform_field {
+  display: block;
+  padding: 5px 0px;
+  margin-left: 10%;
+  color: #f7f7f7;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form_Image_Container {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column no-wrap;
+          flex-flow: column no-wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prodform_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  min-width: 300px;
+  background-color: #4ba4e0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row no-wrap;
+          flex-direction: row no-wrap;
+  margin: 20px auto;
+  padding: 20px 0px;
+  -webkit-box-shadow: 10px #04253b;
+          box-shadow: 10px #04253b;
+}
+
+.prodform_inputbox {
+  border: none;
+  width: 80%;
+  margin: auto;
+  border-bottom: 1px solid #3678a3;
+  background-color: #4ba4e0;
+  color: #f7f7f7;
+  font-weight: 200;
+}
+
+.prodform_inputbox:hover {
+  border-bottom: 1px solid #93cef5;
+  -webkit-transition: border  0.14s;
+  transition: border  0.14s;
+}
+
+.prodform_inputbox:focus {
+  border-bottom: 2px solid #ffffff;
+  outline: none;
+}
+/*# sourceMappingURL=ProdCreate.css.map */

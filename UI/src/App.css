@@ -1,0 +1,162 @@
+.App {
+  background-color: transparent;
+}
+
+.body_style {
+  width: 100%;
+  height: 100%;
+  background-color: #d8eaf5;
+}
+
+.header_flex_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap row;
+          flex-flow: wrap row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box_image {
+  min-width: 400px;
+  opacity: 0.8;
+}
+
+.header_flex_item {
+  -ms-flex-preferred-size: 400px;
+      flex-basis: 400px;
+  min-width: 400px;
+}
+
+.aboutusContainer {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #edfafd;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  color: #668cd8;
+  min-width: 400px;
+}
+
+.goto_order_button {
+  background-color: #4359a3;
+  border-radius: none;
+  border: none;
+  height: 40px;
+  width: 120px;
+  padding: 10px;
+  color: white;
+}
+
+.goto_order_button:hover {
+  background-color: #536fcc;
+  height: 52px;
+  width: 156px;
+  -webkit-transition: height  0.2s, width  0.2s;
+  transition: height  0.2s, width  0.2s;
+}
+
+.goto_order_button:active {
+  background-color: #c4d1fd;
+}
+
+.our_service_flexbox {
+  width: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 15px;
+}
+
+.our_service_title {
+  color: #668cd8;
+  font-size: 30px;
+}
+
+.ourservice_bullet_flexbox {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  padding: 5px;
+}
+
+.bullet_icon {
+  height: 50%;
+  font-size: 5em;
+  margin-top: 30px;
+  color: #668cd8;
+}
+
+.bullet_content {
+  height: 50%;
+  color: #668cd8;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.ourservice_bullet_flexitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  min-width: 200px;
+  width: 200px;
+  height: 250px;
+  background-color: transparent;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.our_service_button {
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,11 @@
+.flexCatalogue{
+    border-width: 3px; 
+    border-style: dotted ;
+    border-color: black;
+    float:left;
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+};

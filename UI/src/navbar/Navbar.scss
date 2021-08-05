@@ -1,0 +1,51 @@
+//aca arranca el navbar.
+.navbar_container{
+    background-color: #668cd8;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 100%;
+    
+  }
+  
+  .navbar_normal_viewport{
+    width: 100%;
+  }
+  
+  .navbar_flex_menu{
+    float: right;
+    display: flex;
+    width: 500px;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    min-width: 400px;
+    
+  
+  
+  }
+  
+  .navbar_flex_menu a{
+
+    text-decoration: none;
+    color:rgb(255,255,255);
+  }
+  .navbar_flex_item{
+     justify-items: center;
+    flex: auto;
+    list-style: none ;
+    text-align: center;
+    border-left: 1px solid rgb(255, 255, 255);
+    flex-shrink: 1;
+   
+  }
+  .navbar_flex_item:hover{
+    background-color: #7da6f8;
+    font-size: calc(10px + 2vmin + 4px) ;
+    transition: font-size 0.2s;
+    
+  }
+  

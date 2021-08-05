@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,YAAY,EAAE,GAAG;EACjB,YAAY,EAAE,MAAO;EACrB,YAAY,EAAE,KAAK;EACnB,KAAK,EAAC,IAAI;EACV,KAAK,EAAE,GAAG;EACV,OAAO,EAAC,IAAI;EACZ,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,MAAM;CAE1B",
+    "sources": [
+        "prodcatalogue.scss"
+    ],
+    "names": [],
+    "file": "prodcatalogue.css"
+}
